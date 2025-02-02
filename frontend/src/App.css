@@ -1,0 +1,329 @@
+body {
+  background-color: #e9ecef; /* Light gray background */
+  font-family: 'Roboto', sans-serif; /* Font family */
+  color: #333333; /* Dark gray text */
+  margin: 0;
+  padding: 0;
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background */
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 28px; /* Heading 1 size */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+h2 {
+  font-size: 24px; /* Heading 2 size */
+}
+
+p {
+  font-size: 16px; /* Body text size */
+}
+
+/* Box Structure for Main Content */
+.box {
+  background-color: #ffffff; /* White background for boxes */
+  border: 1px solid #e0e0e0; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 20px; /* Padding inside the box */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  max-width: 400px; /* Maximum width for boxes */
+  margin: 20px auto; /* Center align with margin */
+}
+
+/* Home Page and Dashboard Styles */
+.HomePage.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: rgba(240, 248, 255, 0.8);  /* Light background color with transparency */
+}
+
+h1 {
+  font-size: 36px;  /* Larger, prominent heading */
+  font-weight: bold;  /* Bold for emphasis */
+  text-align: center;  /* Center the text */
+  color: #333333;  /* Dark gray color for the text */
+  margin-bottom: 40px;  /* Space below the heading */
+}
+
+nav ul {
+  display: flex;  
+  justify-content: center;  /* Center the buttons horizontally */
+  gap: 20px;  /* Space between buttons */
+  padding: 0;
+  list-style-type: none;  /* Remove default list styling */
+}
+
+nav ul li {
+  display: flex;
+}
+
+.box {
+  padding: 15px 30px;  /* Generous padding for clickable area */
+  background-color: #0044cc;  /* Blue background for each box */
+  color: #ffffff;  /* White text for the buttons */
+  border-radius: 5px;  /* Rounded corners for buttons */
+  text-align: center;  /* Center the link text inside the box */
+  transition: background-color 0.3s ease;  /* Smooth transition for hover effect */
+}
+
+.box:hover {
+  background-color: #003366;  /* Darker blue on hover */
+}
+
+a {
+  text-decoration: none;  /* Remove the underline from links */
+  color: #ffffff;  /* White color for the link text */
+  font-size: 18px;  /* Slightly larger font for the link text */
+}
+
+a:hover {
+  color: #ffd700;  /* Gold color when hovering over the link */
+}
+
+/* Center Aligning Buttons in Center Align Class */
+.center-align button {
+  margin: 10px; /* Space between buttons */
+  display: block; /* Ensure buttons are block elements for centering */
+  width: 100%; /* Full width for buttons */
+  max-width: 200px; /* Optional: limit the width of buttons */
+}
+
+/* Center Aligning Content */
+.center-align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+}
+
+/* User Dashboard and Admin Dashboard Box */
+.dashboard-box {
+  background-color: #ffffff; /* White background for dashboard boxes */
+  border: 1px solid #e0e0e0; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 20px; /* Padding inside the box */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin: 20px; /* Margin around the box */
+}
+
+/* Header Navigation */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e0e0e0; /* Subtle border */
+  background-color: #ffffff; /* White background */
+}
+
+header a {
+  color: #0044cc; /* Deep blue for links */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+header a:hover {
+  color: #0055ff; /* Lighter blue on hover */
+}
+
+/* Main Section */
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* Buttons */
+button {
+  background-color: #0044cc; /* Deep blue */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #0055ff; /* Lighter blue on hover */
+  transform: scale(1.05); /* Slight scale-up */
+}
+
+/* Forms */
+input[type="text"], input[type="password"], input[type="email"] {
+  border: 1px solid #cccccc; /* Light gray border */
+  padding: 10px;
+  border-radius: 5px; /* Rounded corners */
+  width: 100%; /* Full width */
+  margin-bottom: 10px; /* Space below input */
+}
+
+input:focus {
+  border-color: #0044cc; /* Highlight border on focus */
+}
+
+/* Validation Feedback */
+.success {
+  color: #28a745; /* Muted green for success */
+}
+
+.error {
+  color: #ff4d4d; /* Subtle red for errors */
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse; /* Collapse borders */
+}
+
+th, td {
+  padding: 10px;
+  text-align: center; /* Center align text */
+}
+
+th {
+  background-color: #d9d9d9; /* Darker background for headers */
+}
+
+tr:nth-child(odd) {
+  background-color: #f9f9f9; /* Alternate row color */
+}
+
+tr:hover {
+  background-color: #e6f7ff; /* Highlight row on hover */
+}
+
+/* Table Cell Styling */
+.table-cell {
+    padding: 15px; /* Add padding for spacing */
+    border: 1px solid #e0e0e0; /* Light gray border */
+    background-color: #ffffff; /* White background for cells */
+    text-align: center; /* Center align text */
+}
+
+/* Input Row Styling */
+.input-row {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between items */
+    width: 100%; /* Full width for the input row */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 15px; /* Space below the row */
+}
+
+.input-row input {
+    margin-right: 10px; /* Space between inputs */
+    flex: 1; /* Allow inputs to grow and take more space */
+}
+
+.input-row button {
+    flex: 0.5; /* Button takes less space compared to inputs */
+}
+
+/* Button Container Styling */
+.button-container {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center the button horizontally */
+    margin-top: 20px; /* Space above the button */
+}
+
+/* Form Container Styling */
+.form-container {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    margin-top: 20px; /* Space above the form */
+    padding: 50px;
+}
+
+/* Input Field Styling */
+.input-field {
+    flex: 3; /* Allow inputs to grow and take more space */
+}
+.centered-heading {
+    text-align: center; /* Center align the text */
+    margin: 20px 0; /* Add vertical spacing */
+}
+
+/* Footer */
+footer {
+  background-color: #333333; /* Dark background */
+  color: #ffffff; /* Light text */
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Animations */
+.fade-in {
+  animation: fadeIn 0.5s ease-in; /* Fade-in animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column; /* Stack elements vertically */
+  }
+
+  header {
+    flex-direction: column; /* Stack header items */
+  }
+}
+
+/* Form Styles */
+form {
+  max-width: 500px; /* Increased form container size */
+  margin: 20px auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: left;
+}
+
+form input, form button {
+  width: 100%;
+  margin-bottom: 20px; /* Increased space between input fields */
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+form input {
+  border: 1px solid #ddd;
+}
+
+form input:focus {
+  border-color: #0044cc; /* Pale red border on focus */
+  outline: none;
+}
+
+form button {
+  background-color:#0044cc; /* Pale red button */
+  color: white;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #0044cc; /* Light gray on hover */
+  color: white;
+}
